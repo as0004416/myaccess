@@ -1,0 +1,200 @@
+body {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #830000;
+}
+.auth_block{
+    display: flex;
+}
+.logo {
+    width: 50%;
+}
+a.auth {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+}
+p.text-banner {
+    padding: 20px;
+    font-size: 24px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #830000;
+}
+footer h2 {
+    padding: 0 40px;
+    color: wheat;
+    font-size: 40px;
+    font-weight: bold;
+}
+footer h3 {
+    color: white;
+    font-size: 30px;
+}
+ul.common_information {
+    display: flex;
+    padding: 20px;
+}
+ul.common_information li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 26px;
+    padding: 20px;
+}
+div#form_register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+div#form_auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.lab-form {
+    display: flex;
+    width: 500px;
+}
+label {
+    width: 100px;
+    margin: 0 5px 0 0px;
+}
+div#form_auth h2 {
+    font-size: 30px;
+    color: #830000;
+    font-weight: bold;
+}
+input {
+    border: 1px solid;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+.lab-form {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    padding: 10px;
+}
+label {
+    width: 100px;
+    font-size: 20px;
+    color: #830000;
+    font-weight: bold;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn input {
+    background: #830000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+div#form_register h2 {
+    color: rebeccapurple;
+    color: #830000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-access {
+    display: flex;
+}
+.content-item {
+    padding: 20px;
+}
+textarea {
+    border: 1px solid;
+    padding: 10px 50px;
+    font-size: 20px;
+    height: 200px;
+}
+.lab-form ladel {
+    width: 100px;
+}
+ul.access-list li {
+    list-style: none;
+}
+li.title {
+    font-size: 26px;
+    color: #830000;
+    font-weight: bold;
+}
+li.title-project {
+    color: #ff6b22;
+    font-size: 20px;
+    font-weight: bold;
+}
+li.title_description {
+    font-size: 20px;
+}
+.content-item.project {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+ul.access-list {
+    width: 33%;
+}
+ul.access-list {
+    border: 3px solid #b9b9b9;
+    margin: 10px;
+    padding: 10px;
+}
+a.delete-access {
+    background: #830000;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 5px 20px;
+}
+.li-item-access {
+    padding: 30px 0 0 0;
+}
+.li-item-access-a {
+    display: flex;
+    justify-content: flex-end;
+}
+.error-access {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.error-access a {
+    padding: 20px;
+    background: #830000;
+    color: white;
+    font-size: 24px;
+}
+.content-item h1 {
+    text-align: center;
+    color: #e47d7d;
+    font-size: 40px;
+}

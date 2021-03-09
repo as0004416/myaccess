@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="486fd2c8-8f53-48d9-9fcc-183948f78341" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
+  <component name="ProjectId" id="1pSrpMbAWupztjjit27KkYK9eiT" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.ControllerRegistration.php">
+    <configuration name="ControllerAuthorization.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerAuthorization.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="ControllerMyAccess.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerMyAccess.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="ControllerRegistration.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerRegistration.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="ModelGetAccess.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ModelGetAccess.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="success_auth.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/success_auth.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.ControllerRegistration.php" />
+        <item itemvalue="PHP Script.ModelGetAccess.php" />
+        <item itemvalue="PHP Script.ControllerMyAccess.php" />
+        <item itemvalue="PHP Script.success_auth.php" />
+        <item itemvalue="PHP Script.ControllerAuthorization.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="486fd2c8-8f53-48d9-9fcc-183948f78341" name="Default Changelist" comment="" />
+      <created>1615187513347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615187513347</updated>
+      <workItem from="1615187514915" duration="1154000" />
+      <workItem from="1615188924662" duration="30020000" />
+      <workItem from="1615226508793" duration="8293000" />
+      <workItem from="1615268917183" duration="644000" />
+      <workItem from="1615277577221" duration="9421000" />
+      <workItem from="1615296266598" duration="1729000" />
+      <workItem from="1615310310145" duration="12218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
