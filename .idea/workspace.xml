@@ -40,29 +40,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.ControllerRegistration.php">
-    <configuration name="ControllerAuthorization.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerAuthorization.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.ModelSharingAccess.php">
     <configuration name="ControllerMyAccess.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerMyAccess.php">
       <method v="2" />
     </configuration>
     <configuration name="ControllerRegistration.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerRegistration.php">
       <method v="2" />
     </configuration>
+    <configuration name="ControllerSharingAccess.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerSharingAccess.php">
+      <method v="2" />
+    </configuration>
     <configuration name="ModelGetAccess.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ModelGetAccess.php">
       <method v="2" />
     </configuration>
-    <configuration name="success_auth.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/success_auth.php">
+    <configuration name="ModelSharingAccess.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ModelSharingAccess.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.ModelSharingAccess.php" />
+        <item itemvalue="PHP Script.ControllerSharingAccess.php" />
         <item itemvalue="PHP Script.ControllerRegistration.php" />
         <item itemvalue="PHP Script.ModelGetAccess.php" />
         <item itemvalue="PHP Script.ControllerMyAccess.php" />
-        <item itemvalue="PHP Script.success_auth.php" />
-        <item itemvalue="PHP Script.ControllerAuthorization.php" />
       </list>
     </recent_temporary>
   </component>
@@ -83,6 +83,12 @@
       <workItem from="1615277577221" duration="9421000" />
       <workItem from="1615296266598" duration="1729000" />
       <workItem from="1615310310145" duration="12218000" />
+      <workItem from="1615403743971" duration="3696000" />
+      <workItem from="1615440933668" duration="14482000" />
+      <workItem from="1615470031848" duration="7933000" />
+      <workItem from="1615496707898" duration="539000" />
+      <workItem from="1615539148655" duration="612000" />
+      <workItem from="1615543432550" duration="690000" />
     </task>
     <servers />
   </component>

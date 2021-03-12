@@ -198,3 +198,93 @@ a.delete-access {
     color: #e47d7d;
     font-size: 40px;
 }
+.users-access_list {
+    display: flex;
+}
+.list-users {
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+.column-access{
+    display: flex;
+}
+.success_sharing_access {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.email-list {
+    display: flex;
+    align-items: center;
+}
+.fio-list {
+    color: #830000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.email-list p {
+    margin: 0px;
+    padding: 0 20px 0px 0px;
+    font-size: 22px;
+    color: #ff9800;
+    font-weight: bold;
+}
+.email-list h2 {
+    margin: 0px;
+    color: #0d135a;
+}
+.users-list-header h2 {
+    color: #830000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.access-list-header h2 {
+    color: #830000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.list-users {
+    background: #f9f9f9;
+    padding: 3px;
+    margin: 10px;
+}
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+.access-title {
+    color: #830000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff9800;
+}
+.btn-access {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.btn-access input {
+    background: #830000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.success-added-access {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    color: #830000;
+}
+.access-list-item {
+    padding: 0 20px;
+}

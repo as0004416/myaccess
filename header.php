@@ -37,6 +37,7 @@ session_start();
             ?>
             <div id="link_logout">
                 <a class="auth" href="/logout.php">Выход</a>
+                <a class="auth" href="sharing_access.php">Обмен доступами</a>
             </div>
             <?php
         }
