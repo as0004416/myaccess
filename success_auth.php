@@ -6,7 +6,7 @@ $new = new ControllerAuthorization();
 echo $new->index();
 ?>
 <?php if (!empty($_SESSION['email'])) { ?>
-    <div class="content-access">
+    <div class="content-accesses">
     <div class="content-item">
         <h1>Add MyACCESSES</h1>
         <form action="check_access.php" method="post" name="form_auth">

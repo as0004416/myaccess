@@ -25,10 +25,37 @@ INNER JOIN users_access ua ON access.id = ua.id_access
 INNER JOIN users u ON ua.id_users = u.id WHERE u.email = '$this->session'");
         for ($data = []; $row = mysqli_fetch_assoc($query); $data[] = $row) ;
         foreach ($data as $result) {
-            echo "<ul class='access-list'>" . "<div class='li-item-access-a'><a class='delete-access' href='?del={$result['id_access']}'>Удалить</a></div>" . "<div class='li-item-access'><li class='title'>" . $result['title'] .
+            echo "<ul class='access-list'>" . "<div class='li-item-access-a'><a class='delete-access' href='?del={$result['id_access']}'>Удалить</a><a class='delete-access' href='edit_access.php?edit={$result['id_access']}'>Изменить</a></div>" . "<div class='li-item-access'><li class='title'>" . $result['title'] .
                 "</li>" . "<li class='title-project'>" . $result['title_project'] . "</li>" .
                 "<li class='title_description'>" . $result['title_description'] . "</li></div>" .
                 "</ul><br>";
+        }
+    }
+
+    public function getAccess()
+    {
+        $mysql = $this->mysql;
+        if (isset($_GET['edit'])) {
+            $id = $_GET['edit'];
+            $query = "SELECT * FROM access WHERE id=$id";
+            $result = mysqli_query($mysql, $query) or die("Ошибка " . mysqli_error($mysql));
+        }
+        $query = mysqli_query($this->mysql, "SELECT * FROM access 
+INNER JOIN users_access ua ON access.id = ua.id_access 
+INNER JOIN users u ON ua.id_users = u.id WHERE u.email = '$this->session' and access.id = '$id'");
+        for ($data = []; $row = mysqli_fetch_assoc($query); $data[] = $row) ;
+        foreach ($data as $result) {
+            $id_access = $result['id_access'];
+            echo "<div class='content-access'><div class='edit-title'>".$result['title'] . "</div><div class='edit-title_project'>" . $result['title_project'] . "</div><div class='edit-title_description'> " . $result['title_description']."</div></div>";
+        }
+        if (!empty($_POST['title']) || !empty($_POST['title_project']) || !empty($_POST['description'])) {
+            $title = $_POST['title'];
+            $title_project = $_POST['title_project'];
+            $title_description = $_POST['description'];
+            $query = mysqli_query($this->mysql, "UPDATE access SET title = '$title',title_project = '$title_project',title_description = '$title_description' WHERE id = '$id_access'") or die("Ошибка " . mysqli_error($mysql));
+            if ($query) {
+                header("Location: edit_access.php?edit=$id_access");
+            }
         }
     }
 }

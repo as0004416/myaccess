@@ -40,10 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.ModelSharingAccess.php">
-    <configuration name="ControllerMyAccess.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerMyAccess.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.header.php">
     <configuration name="ControllerRegistration.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ControllerRegistration.php">
       <method v="2" />
     </configuration>
@@ -56,13 +53,16 @@
     <configuration name="ModelSharingAccess.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ModelSharingAccess.php">
       <method v="2" />
     </configuration>
+    <configuration name="header.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/header.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.header.php" />
         <item itemvalue="PHP Script.ModelSharingAccess.php" />
         <item itemvalue="PHP Script.ControllerSharingAccess.php" />
         <item itemvalue="PHP Script.ControllerRegistration.php" />
         <item itemvalue="PHP Script.ModelGetAccess.php" />
-        <item itemvalue="PHP Script.ControllerMyAccess.php" />
       </list>
     </recent_temporary>
   </component>
@@ -89,6 +89,7 @@
       <workItem from="1615496707898" duration="539000" />
       <workItem from="1615539148655" duration="612000" />
       <workItem from="1615543432550" duration="690000" />
+      <workItem from="1615550649675" duration="11251000" />
     </task>
     <servers />
   </component>
