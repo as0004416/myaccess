@@ -17,12 +17,30 @@ class ModelMyAccess
         $this->description = $description;
         $this->mysql = $mysql;
     }
-
+    public function checkTitle($title){
+        $maintitle = strip_tags($title);
+        if(strlen($maintitle)<30){
+            return $maintitle;
+        }else{
+            return substr($maintitle, 0, 30);
+        }
+    }
+    public function checkDescription($description){
+        $descriptions =  strip_tags($description);
+        if(strlen($descriptions)<200){
+            return $description;
+        }else{
+            return substr($descriptions,0,200);
+        }
+    }
     public function addAcсountBD()
     {
         $mysql = $this->mysql;
+        $title = $this->checkTitle($this->title);
+        $title_project = $this->checkTitle($this->title_project);
+        $description = $this->checkDescription($this->description);
         $query1 = "INSERT INTO access (title, title_project, title_description)
-  VALUES ('$this->title', '$this->title_project', '$this->description');";
+  VALUES ('$title', '$title_project', '$description');";
         $result = mysqli_query($mysql, $query1) or die("Ошибка " . mysqli_error($mysql));
         if ($result) {
             echo "<span>Данные добавлены</span>";

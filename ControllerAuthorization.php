@@ -14,7 +14,7 @@ class controllerAuthorization
             } else {
                 unset($_SESSION['email']);
                 unset($_SESSION['password']);
-                header('Location: index.php');
+                header('Location: error_auth.php');
             }
         }
     }
