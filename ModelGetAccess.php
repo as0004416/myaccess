@@ -30,9 +30,14 @@ class ModelGetAccess
     public function getFromBD()
     {
         $mysql = $this->mysql;
+        $query_user = mysqli_query($this->mysql,"SELECT id FROM users WHERE email = '$this->session'");
+        for ($data_user = []; $row_user = mysqli_fetch_assoc($query_user); $data_user[] = $row_user) ;
+        foreach ($data_user as $value){
+            $res = $value['id'];
+        }
         if (isset($_GET['del'])) {
             $id = $_GET['del'];
-            $query = "DELETE FROM access WHERE id=$id";
+            $query = "DELETE FROM users_access WHERE id_access = $id AND id_users = $res";
             $result = mysqli_query($mysql, $query) or die("Ошибка " . mysqli_error($mysql));
         }
         $query = mysqli_query($this->mysql, "SELECT * FROM access 
