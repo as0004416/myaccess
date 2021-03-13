@@ -9,7 +9,7 @@ class controllerAuthorization
             require_once 'connectionDB.php';
             require_once 'ModelAuthorization.php';
             $new = new ModelAuthorization($_POST['email'], $_POST['password'], $mysql);
-            if ($new->checkData()) {
+            if ($new->index()) {
                 header('Location: success_auth.php');
             } else {
                 unset($_SESSION['email']);

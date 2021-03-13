@@ -315,3 +315,12 @@ input[type="checkbox"] {
 .edit-title_description {
     font-size: 20px;
 }
+span.user_email {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff9800;
+}
+.usertext_email span {
+    color: white;
+    font-size: 16px;
+}

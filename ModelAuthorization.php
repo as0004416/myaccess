@@ -14,7 +14,13 @@ class modelAuthorization
         $this->password = $password;
         $this->mysql = $mysql;
     }
-
+    public function index(){
+        if($this->checkData()){
+            return true;
+        }else{
+            return $this->errorOutput();
+        }
+    }
     public function checkData()
     {
         $_SESSION['email'] = $this->email;

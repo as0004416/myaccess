@@ -11,28 +11,33 @@ class ModelGetAccess
         $this->mysql = $mysql;
         $this->session = $session;
     }
-    public function checkTitle($title){
+
+    public function checkTitle($title)
+    {
         $maintitle = strip_tags($title);
-        if(strlen($maintitle)<30){
+        if (strlen($maintitle) < 30) {
             return $maintitle;
-        }else{
+        } else {
             return substr($maintitle, 0, 30);
         }
     }
-    public function checkDescription($description){
-        $descriptions =  strip_tags($description);
-        if(strlen($descriptions)<200){
+
+    public function checkDescription($description)
+    {
+        $descriptions = strip_tags($description);
+        if (strlen($descriptions) < 200) {
             return $description;
-        }else{
-            return substr($descriptions,0,200);
+        } else {
+            return substr($descriptions, 0, 200);
         }
     }
+
     public function getFromBD()
     {
         $mysql = $this->mysql;
-        $query_user = mysqli_query($this->mysql,"SELECT id FROM users WHERE email = '$this->session'");
+        $query_user = mysqli_query($this->mysql, "SELECT id FROM users WHERE email = '$this->session'");
         for ($data_user = []; $row_user = mysqli_fetch_assoc($query_user); $data_user[] = $row_user) ;
-        foreach ($data_user as $value){
+        foreach ($data_user as $value) {
             $res = $value['id'];
         }
         if (isset($_GET['del'])) {

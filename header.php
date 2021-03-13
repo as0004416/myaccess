@@ -17,6 +17,7 @@ session_start();
             <h2>MyACCESS</h2>
         <?php } else { ?>
             <a href="success_auth.php"><h2>MyACCESS</h2></a>
+            <p><?php echo '<div class="usertext_email"><span>Вход выполнен: </span><span class="user_email">'.$_SESSION['email'].'</span></div>'; ?></p>
         <?php }
         ?>
     </div>
